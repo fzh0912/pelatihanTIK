@@ -30,6 +30,16 @@ body {
 .kartu-proyek {
     background-color: #703B3B;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 200px;
+}
+
+@media (max-width: 600px){
+    .daftar-proyek {
+        flex-direction: column;
+        align-items: center;
+    }
+    .kartu-profil {
+        width:  90%;
+    }
 }
