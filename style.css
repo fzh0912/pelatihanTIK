@@ -1,19 +1,19 @@
 body {
-    background-color: #134686;
+    background-color: #647FBC;
     font-family: Courier New;
-    color: #E1D0B3;
+    color: #FAFDD6;
 }
 
 .kartu-profil {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #E1D0B3;
+    background-color: #91ADC8;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0.1);
     text-align: center;
 
-    color: #134686;
+    color: #647FBC;
 }
 
 .kartu-profil img {
@@ -28,7 +28,7 @@ body {
 }
 
 .kartu-proyek {
-    background-color: #703B3B;
+    background-color: #AED6CF;
     padding: 15px;
     border-radius: 10px;
     width: 200px;
@@ -42,4 +42,13 @@ body {
     .kartu-profil {
         width:  90%;
     }
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f2f5;
+}
+body.dark-mode .kartu-profil,
+body.dark-mode .kartu-proyek {
+    background-color: #1e1e1e;
 }
