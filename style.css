@@ -26,3 +26,10 @@ body {
     justify-content: center;
     gap: 20px;
 }
+
+.kartu-proyek {
+    background-color: #e9e9e9;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
