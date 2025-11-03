@@ -16,9 +16,13 @@ body {
     color: #134686;
 }
 
-
 .kartu-profil img {
     width: 150px;
     border-radius: 50%;
 }
     
+.daftar-proyek {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
